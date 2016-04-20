@@ -1,4 +1,6 @@
-# DjangoCon 2015 Azure Challenge
+
+
+# Jamal's Repo
 
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
 
