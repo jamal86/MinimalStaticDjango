@@ -6,6 +6,7 @@ from django.shortcuts import render
 from django.http import HttpRequest
 from django.template import RequestContext
 from datetime import datetime
+import django
 
 def home(request):
     """Renders the home page."""
@@ -17,6 +18,7 @@ def home(request):
         {
             'title':'Microsoft Code Challege',
             'year':datetime.now().year,
+	    'version':django.VERSION,
         })
     )
 
