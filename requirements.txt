@@ -1,4 +1,4 @@
 --find-links wheelhouse
 django<2
 wheel
-
+celery==3.1.23
